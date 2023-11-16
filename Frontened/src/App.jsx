@@ -12,6 +12,10 @@ const App = () => {
       path:'/',
       element:<Home/>
     },
+     {
+      path:'/home',
+      element:<Home/>
+    },
     {
       path:'/books/create',
       element:<CreateBooks/>
